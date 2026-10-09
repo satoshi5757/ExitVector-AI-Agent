@@ -1,0 +1,42 @@
+# Environment and local configuration
+.env
+.env.*
+*.env
+*.env.*
+!.env.example
+.envrc
+.python-version
+config.local.*
+*.local.*
+# Credentials and private keys
+*credentials*
+*secrets*
+*.pem
+*.key
+*.p12
+*.pfx
+# Local runtime data and logs
+/data/
+/logs/
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*.lock
+*.log
+# Python and editor artifacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+build/
+dist/
+.coverage
+htmlcov/
+.vscode/
+.idea/
+# Local working notes
+/NEXT PROMPT.txt
+/phase5_current.txt
